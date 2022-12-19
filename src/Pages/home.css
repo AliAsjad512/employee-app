@@ -1,0 +1,28 @@
+table {
+    width: 60%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #4da2e8;
+    font-size: 21px;
+    color: #f8f8f8;
+}
+
+
+
+td,
+th {
+    border: 1px solid black;
+    padding: 6px;
+    text-align: center;
+}
+
+tbody tr:hover {
+    background-color: rgba(145, 145, 145, 0.24);
+    cursor: pointer;
+}
+
+td {
+    font-size: 18px;
+}
